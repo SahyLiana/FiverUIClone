@@ -54,7 +54,7 @@ function Navbar() {
                 <div className="options">
                   {currentUser?.isSeller && (
                     <>
-                      <Link className="link" to="/gigs">
+                      <Link className="link" to="/myGigs">
                         <span>Gigs</span>
                       </Link>
                       <Link className="link" to="/add">
@@ -100,6 +100,7 @@ function Navbar() {
               <span>Music and Audio</span>
             </Link>
           </div>
+          <hr />
         </>
       )}
     </div>

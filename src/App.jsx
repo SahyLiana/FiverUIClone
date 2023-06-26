@@ -7,8 +7,8 @@ import Gig from "./pages/gig/Gig";
 import Orders from "./pages/orders/Orders";
 import MyGigs from "./pages/myGigs/MyGigs";
 import Add from "./pages/add/Add";
-import Messages from "./pages/messages/Message";
-import Message from "./pages/messages/Message";
+import Messages from "./pages/messages/Messages";
+import Message from "./pages/message/Message";
 import "./App.scss";
 import {
   createBrowserRouter,
